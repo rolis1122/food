@@ -147,6 +147,33 @@ ul {
   text-transform: capitalize;
   display: inline-block;
 }
+.btn-right {
+  cursor: pointer;
+  color: var(--white);
+  background: var(--primary-500);
+  border: transparent;
+  border-radius: var(--borderRadius);
+  letter-spacing: var(--letterSpacing);
+  padding: 0.3rem 0.2rem;
+  box-shadow: var(--shadow-1);
+  text-transform: capitalize;
+  float: right;
+  margin: 5px;
+  font-size: 0.7rem;
+}
+.btn-end {
+  cursor: pointer;
+  color: var(--white);
+  background: var(--primary-500);
+  border: transparent;
+  border-radius: var(--borderRadius);
+  letter-spacing: var(--letterSpacing);
+  padding: 0.3rem 0.2rem;
+  box-shadow: var(--shadow-1);
+  text-transform: capitalize;
+  float: left;
+  font-size: 0.7rem;
+}
 .btn:hover {
   background: var(--primary-700);
   box-shadow: var(--shadow-3);

@@ -13,6 +13,9 @@ const Modal = () => {
     <aside className="modal-overlay">
       <div className="modal-container">
         <img src={image} alt="{title}" className="img modal-img" />
+        <button className="btn btn-right" onClick={closeModal}>
+          Back
+        </button>
         <div className="modal-content">
           <h4>{title}</h4>
           <p>Recepte</p>
@@ -20,10 +23,10 @@ const Modal = () => {
           <a href={source} target="_blank">
             Vairāk info šeit
           </a>
+          <button className="btn btn-end" onClick={closeModal}>
+            Back
+          </button>
         </div>
-        <button className="btn" onClick={closeModal}>
-          close
-        </button>
       </div>
     </aside>
   );
